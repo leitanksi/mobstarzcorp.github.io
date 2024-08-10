@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quién es Nev en los Beatz: la mejor música urbana y productos relacionados.">
+    <title>Who Is Nev On The Beatz</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Añadir Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="assets/particulas.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+    <header>
+        <a href="#inicio" id="logo-link" aria-label="Ir al inicio">
+            <img src="assets/mobstarz3.png" alt="Logotipo de Mobstarz" class="logo" id="logo">
+        </a>
+
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="#carrito" aria-label="Ver carrito de compras">
+                        Carrito
+                        <img src="assets/tienda2.png" alt="Ícono del carrito" class="icono-carrito">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Íconos de redes sociales -->
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/leitanmx" target="_blank" aria-label="Instagram">
+                <img src="assets/ig.png" alt="Instagram" class="icono-redes">
+            </a>
+            <a href="https://www.youtube.com/@leitanmx" target="_blank" aria-label="YouTube">
+                <img src="assets/yt.png" alt="YouTube" class="icono-redes">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="assets/fb.png" alt="Facebook" class="icono-redes">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+                <img src="assets/tik.png" alt="TikTok" class="icono-redes">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contenido principal -->
+    </main>
+
+    <!-- Icono de Chat -->
+    <div class="chat-icon" id="chat-icon">
+        <img src="assets/chat.png" alt="Chat Icon">
+    </div>
+
+    <!-- Ventana del chat -->
+    <div class="chat-popup" id="chat-popup">
+        <div class="chat-header">
+            <span>Contáctanos</span>
+            <button class="close-btn" id="close-chat">×</button>
+        </div>
+        <div class="chat-body">
+            <form id="contact-form">
+                <textarea id="chat-input" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <button type="submit" id="send-btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
